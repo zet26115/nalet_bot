@@ -12,12 +12,12 @@ from aiogram.fsm.state import State, StatesGroup
 from pandas.tseries.offsets import DateOffset
 
 # Загрузка токена
-load_dotenv()
+
 BOT_TOKEN = "7960180708:AAEkKnSyeFBKpi7XNckGkodIAUCKzvIFqL0"
 
 # Инициализация бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
-print("BOT_TOKEN:", BOT_TOKEN)
+
 dp = Dispatcher()
 
 EXCEL_FILE = 'nalet.xlsx'
