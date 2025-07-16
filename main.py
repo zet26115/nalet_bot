@@ -11,9 +11,8 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from pandas.tseries.offsets import DateOffset
 
-# Загрузка токена
-
-BOT_TOKEN = "7960180708:AAEkKnSyeFBKpi7XNckGkodIAUCKzvIFqL0"
+load_dotenv()
+BOT_TOKEN = os.getenv('TOKEN')
 
 # Инициализация бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
