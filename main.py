@@ -13,7 +13,7 @@ from pandas.tseries.offsets import DateOffset
 
 # Загрузка токена
 load_dotenv()
-BOT_TOKEN = os.getenv('TOKEN')
+BOT_TOKEN = "7960180708:AAEkKnSyeFBKpi7XNckGkodIAUCKzvIFqL0"
 
 # Инициализация бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
